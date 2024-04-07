@@ -225,11 +225,12 @@ body {
 }
 
 .site-cart__bottom-title {
+    display: block;
     text-align: center;
     color: var(--text-grey);
     font-size: 1.6rem;
     font-weight: 700;
-    line-height: 18.8rem;
+    line-height: 13.2rem;
     letter-spacing: 0px;
 }
 
