@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +13,19 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <!-- HEADER -->
     <header class="site-header">
         <div class="site-header__container container">
             <div class="site-header__container-nav">
+                <!-- SITE LOGO -->
                 <a href="index.html" class="site-header__logolink logo">
-                    <img src="image/sneakers.svg" alt="Sneakers product LOGO" class="site-header__logo" width="138" height="20">
+                    <img src="image/sneakers.svg" alt="Sneakers product LOGO" class="site-header__logo" width="138"
+                        height="20">
                 </a>
+                <!-- SITE NAV -->
                 <nav class="site-nav">
                     <ul class="site-nav__items">
                         <li class="site-nav__item"><a class="site-nav__link" href="#">Collections</a></li>
@@ -31,22 +36,31 @@
                     </ul>
                 </nav>
             </div>
+            <!-- SITE BASKET -->
             <div class="site-basket">
                 <div class="site-basket__container">
                     <a href="#" class="site-basket__link js-site-basket-link">
-                        <svg class="site-basket__logo" width="22.000000" height="20.000000" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs/>
-                            <path id="Shape" d="M20.9246 3.64139L3.86313 3.64139L3.60953 0.816055C3.56802 0.354019 3.18082 0 2.71695 0L0.896149 0C0.401215 0 0 0.40123 0 0.896164C0 1.3911 0.401215 1.79231 0.896149 1.79231L1.89764 1.79231C1.99942 2.9263 2.03336 3.30431 2.03336 3.30431L2.00711 3.01192C1.9906 2.82787 1.96872 2.58408 1.94888 2.36287C2.04895 3.47768 2.31653 6.45906 2.92834 13.2755C3.0015 14.1031 3.44867 15.0012 4.21902 15.6114C2.83011 17.3851 4.09915 20 6.35846 20C8.23364 20 9.55624 18.1298 8.91321 16.3584L13.818 16.3584C13.1758 18.1275 14.4955 20 16.3727 20C17.8708 20 19.0897 18.7812 19.0897 17.2831C19.0897 15.7849 17.8708 14.5661 16.3727 14.5661L6.36453 14.5661C5.68378 14.5661 5.09058 14.1554 4.83453 13.5571L19.1563 12.7153C19.5473 12.6924 19.8781 12.4181 19.9731 12.0381L21.7941 4.75488C21.9352 4.19014 21.5077 3.64139 20.9246 3.64139ZM1.89767 1.79233L1.94446 2.31352L1.94446 2.31352L1.89767 1.79233ZM4.59329 11.7758L18.394 10.9648L19.7769 5.43367L4.02402 5.43367L4.59329 11.7758ZM5.43387 17.2831C5.43387 17.7929 5.84866 18.2077 6.35846 18.2077C6.86829 18.2077 7.28308 17.7929 7.28308 17.2831C7.28308 16.7732 6.86829 16.3584 6.35846 16.3584C5.84866 16.3584 5.43387 16.7732 5.43387 17.2831ZM16.3727 18.2077C15.8629 18.2077 15.4481 17.7929 15.4481 17.2831C15.4481 16.7732 15.8629 16.3584 16.3727 16.3584C16.8825 16.3584 17.2973 16.7732 17.2973 17.2831C17.2973 17.7929 16.8825 18.2077 16.3727 18.2077Z" clip-rule="evenodd" fill="currentColor" fill-opacity="1.000000" fill-rule="evenodd"/>
-                        </svg>                        
+                        <svg class="site-basket__logo" width="22.000000" height="20.000000" viewBox="0 0 22 20"
+                            fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs />
+                            <path id="Shape"
+                                d="M20.9246 3.64139L3.86313 3.64139L3.60953 0.816055C3.56802 0.354019 3.18082 0 2.71695 0L0.896149 0C0.401215 0 0 0.40123 0 0.896164C0 1.3911 0.401215 1.79231 0.896149 1.79231L1.89764 1.79231C1.99942 2.9263 2.03336 3.30431 2.03336 3.30431L2.00711 3.01192C1.9906 2.82787 1.96872 2.58408 1.94888 2.36287C2.04895 3.47768 2.31653 6.45906 2.92834 13.2755C3.0015 14.1031 3.44867 15.0012 4.21902 15.6114C2.83011 17.3851 4.09915 20 6.35846 20C8.23364 20 9.55624 18.1298 8.91321 16.3584L13.818 16.3584C13.1758 18.1275 14.4955 20 16.3727 20C17.8708 20 19.0897 18.7812 19.0897 17.2831C19.0897 15.7849 17.8708 14.5661 16.3727 14.5661L6.36453 14.5661C5.68378 14.5661 5.09058 14.1554 4.83453 13.5571L19.1563 12.7153C19.5473 12.6924 19.8781 12.4181 19.9731 12.0381L21.7941 4.75488C21.9352 4.19014 21.5077 3.64139 20.9246 3.64139ZM1.89767 1.79233L1.94446 2.31352L1.94446 2.31352L1.89767 1.79233ZM4.59329 11.7758L18.394 10.9648L19.7769 5.43367L4.02402 5.43367L4.59329 11.7758ZM5.43387 17.2831C5.43387 17.7929 5.84866 18.2077 6.35846 18.2077C6.86829 18.2077 7.28308 17.7929 7.28308 17.2831C7.28308 16.7732 6.86829 16.3584 6.35846 16.3584C5.84866 16.3584 5.43387 16.7732 5.43387 17.2831ZM16.3727 18.2077C15.8629 18.2077 15.4481 17.7929 15.4481 17.2831C15.4481 16.7732 15.8629 16.3584 16.3727 16.3584C16.8825 16.3584 17.2973 16.7732 17.2973 17.2831C17.2973 17.7929 16.8825 18.2077 16.3727 18.2077Z"
+                                clip-rule="evenodd" fill="currentColor" fill-opacity="1.000000" fill-rule="evenodd" />
+                        </svg>
                     </a>
+                    <div class="site-count">0</div>
+                    <!-- SITE CART -->
                     <div class="site-cart">
                         <div class="site-cart__top">
                             <h2 class="site-cart__title">Cart</h2>
                         </div>
                         <div class="site-cart__bottom">
                             <h3 class="site-cart__bottom-title">Your cart is empty.</h3>
+
                         </div>
                     </div>
                 </div>
+                <!-- USER LOGO -->
                 <a href="#" class="site-basket__user">
                     <img src="image/user.svg" class="site-basket__user-link" alt="user fhoto" width="50" height="50">
                 </a>
@@ -55,12 +69,123 @@
     </header>
 
     <!-- MAIN -->
-    <main>
+    <main class="site-main">
 
+        <!-- PRODUCT -->
+        <section class="product">
+            <div class="product-container container-product">
+                <!-- PRODUCT SLIDER -->
+                <div class="product-slider">
+                    <div class="product-bigimage">
+                        <img src="image/product.svg" id="product-bigimage__image" class="product-bigimage__image"
+                            alt="product image" width="445" height="445">
+                    </div>
+                    <div class="product-smallimage">
+                        <div class="product-smallimage__sneakers product-smallimage__sneakers--active">
+                            <img src="image/sneakers1.svg" class="product-smallimage__img "
+                                data-productImage="image/product.svg" alt="sneakers1" width="88" height="88">
+                        </div>
+
+                        <div class="product-smallimage__sneakers">
+                            <img src="image/sneakers2.svg" class="product-smallimage__img"
+                                data-productImage="image/product2.svg" alt="sneakers2" width="88" height="88">
+                        </div>
+
+                        <div class="product-smallimage__sneakers">
+                            <img src="image/sneakers3.svg" class="product-smallimage__img"
+                                data-productImage="image/product3.svg" alt="sneakers3" width="88" height="88">
+                        </div>
+
+                        <div class="product-smallimage__sneakers">
+                            <img src="image/sneakers4.svg" class="product-smallimage__img"
+                                data-productImage="image/product4.svg" alt="sneakers4" width="88" height="88">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRODUCT INNER -->
+                <div class="product-inner">
+                    <h2 class="product-inner__title">Fall Limited Edition Sneakers</h2>
+                    <p class="product-inner__company">Sneaker Company</p>
+                    <p class="product-inner__text">These low-profile sneakers are your perfect casual wear companion.
+                        Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                    <!-- PRODUCT PRICE -->
+                    <div class="product-price">
+                        <div class="product-price__container">
+                            <h2 class="product-price__title">$125.00</h2>
+                            <div class="product-price__discount">50%</div>
+                        </div>
+
+                        <div class="product-discount">$250.00</div>
+                    </div>
+                    <!-- PRODUCT FILTER -->
+                    <div class="product-filter">
+                        <div class="product-filter__container">
+                            <button class="product-filter__add minus">-</button>
+                            <h2 class="product-filter__quantity">1</h2>
+                            <button class="product-filter__add plus">+</button>
+                        </div>
+                        <a href="#" class="js-product-filter-btn product-filter__btn">
+                            <img src="image/shapewhite.svg" alt="shapewhite image" class="product-filter__image">
+                            Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
+
+    <!-- SITE SLIDER -->
+    <section class="slider-container">
+        <!-- SLIDER visually-hidden -->
+        <h2 class="visually-hidden">SLIDER</h2>
+        <img class="slide-remove" src="image/remove.svg" alt="slide-remove image">
+        <div class="slider-main">
+            <div class="slider-con">
+                <div class="slider active">
+                    <img src="image/product.svg" class="slider-image" alt="product image" width="550" height="550">
+                </div>
+                <div class="slider">
+                    <img src="image/product2.svg" class="slider-image" alt="product image" width="550" height="550">
+                </div>
+                <div class="slider">
+                    <img src="image/product3.svg" class="slider-image" alt="product image" width="550" height="550">
+                </div>
+                <div class="slider">
+                    <img src="image/product4.svg" class="slider-image" alt="product image" width="550" height="550">
+                </div>
+
+                <button class="arrow prev">
+                    <img src="image/prev.svg" alt="prev">
+                </button>
+                <button class="arrow next">
+                    <img src="image/next.svg" alt="next">
+                </button>
+            </div>
+            <div class="option">
+                <div class="optioning opcionActive">
+                    <img src="image/sneakers1.svg" class="option-image" alt="sneakers1" width="88" height="88">
+                </div>
+
+                <div class="optioning">
+                    <img src="image/sneakers2.svg" class="option-image" alt="sneakers2" width="88" height="88">
+                </div>
+
+                <div class="optioning">
+                    <img src="image/sneakers3.svg" class="option-image" alt="sneakers3" width="88" height="88">
+                </div>
+
+                <div class="optioning">
+                    <img src="image/sneakers4.svg" class="option-image" alt="sneakers4" width="88" height="88">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
 
     <!-- SCRIPT -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
